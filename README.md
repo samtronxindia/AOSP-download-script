@@ -12,7 +12,10 @@ It follows the official instructions:
 
 ## Requirements
 
-- 64-bit x86 Linux (Ubuntu 18.04 or later; macOS is not supported)
+- A 64-bit x86 machine running a 64-bit Linux distribution with glibc 2.17 or later
+- On Ubuntu: 18.04 or later, which Google's requirements page gives as the minimum for building Android 11 or higher. The page names no newer release as tested or recommended.
+- The package list this script installs is the one Google gives for Ubuntu 18.04 or later
+- macOS is not supported for Android OS development (since Android 11)
 - At least 64 GB of RAM to build
 - At least 400 GB of free disk space (about 250 GB for the checkout, 150 GB for a build)
 
