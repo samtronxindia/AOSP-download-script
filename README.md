@@ -1,6 +1,8 @@
-# AOSP download script
+# AOSP download script: download the Android Open Source Project source code
 
-A simple download script for the Android source code (AOSP).
+A simple Bash script that downloads the Android source code (AOSP, the Android Open Source Project) on Ubuntu Linux using the `repo` tool, ready to build Android from source.
+
+It is meant for students, researchers and developers who need a full Android platform checkout: Android security research, SELinux policy and access control work, Android framework and system internals, kernel and HAL development, custom ROM builds, and running AOSP on the Cuttlefish emulator or Pixel devices.
 
 It follows the official instructions:
 
@@ -10,7 +12,10 @@ It follows the official instructions:
 
 ## Requirements
 
-- 64-bit x86 Linux (Ubuntu 18.04 or later; macOS is not supported)
+- A 64-bit x86 machine running a 64-bit Linux distribution with glibc 2.17 or later
+- On Ubuntu: 18.04 or later, which Google's requirements page gives as the minimum for building Android 11 or higher. The page names no newer release as tested or recommended.
+- The package list this script installs is the one Google gives for Ubuntu 18.04 or later
+- macOS is not supported for Android OS development (since Android 11)
 - At least 64 GB of RAM to build
 - At least 400 GB of free disk space (about 250 GB for the checkout, 150 GB for a build)
 
@@ -61,3 +66,7 @@ source build/envsetup.sh
 lunch aosp_cf_x86_64_only_phone-aosp_current-userdebug
 m
 ```
+
+## Keywords
+
+AOSP, Android Open Source Project, download Android source code, AOSP download script, repo init, repo sync, android-latest-release, build Android from source, AOSP build environment setup, Ubuntu, Cuttlefish, Pixel, Android platform development, Android security research, SELinux, Android internals, custom ROM, operating systems course.
