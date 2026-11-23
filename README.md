@@ -1,6 +1,8 @@
-# AOSP download script
+# AOSP download script: download the Android Open Source Project source code
 
-A simple download script for the Android source code (AOSP).
+A simple Bash script that downloads the Android source code (AOSP, the Android Open Source Project) on Ubuntu Linux using the `repo` tool, ready to build Android from source.
+
+It is meant for students, researchers and developers who need a full Android platform checkout: Android security research, SELinux policy and access control work, Android framework and system internals, kernel and HAL development, custom ROM builds, and running AOSP on the Cuttlefish emulator or Pixel devices.
 
 It follows the official instructions:
 
@@ -61,3 +63,7 @@ source build/envsetup.sh
 lunch aosp_cf_x86_64_only_phone-aosp_current-userdebug
 m
 ```
+
+## Keywords
+
+AOSP, Android Open Source Project, download Android source code, AOSP download script, repo init, repo sync, android-latest-release, build Android from source, AOSP build environment setup, Ubuntu, Cuttlefish, Pixel, Android platform development, Android security research, SELinux, Android internals, custom ROM, operating systems course.
